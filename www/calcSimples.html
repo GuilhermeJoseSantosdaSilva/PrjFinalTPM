@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <script src="components/loader.js"></script>
+    <script src="lib/js/jquery-3.4.1.min.js"></script>
+    <link rel ="stylesheet" href="lib/css/bootstrap.min.css">
+    <script src="lib/calcSimples/magia.js"></script>
+    <link rel ="stylesheet" href="lib/calcSimples/style.css">
+    
+</head>
+<body>
+   <div class="header">
+    Calculadora topa
+  </div>
+  <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="form-group">
+            <label>Valor 1:</label>
+            <input type="number" class="form-control" id="valor1">  
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="form-group">
+          <label>Valor 2:</label>
+            <input type="number" class="form-control" id="valor2">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+			<div class="col-3">
+				<button class="btn btn-info btn-block" id="subtrair">-</button>
+      <br>
+			</div>
+			<div class="col-3">
+				<button class="btn btn-warning btn-block" id = "somar">+</button>
+        <br>
+			</div>
+			<div class="col-3">
+				<button class="btn btn-primary btn-block" id="multiplicar">*</button>
+        <br>
+			</div>
+			<div class="col-3">
+				<button class="btn btn-danger btn-block" id="dividir">/</button>
+        <br>
+			</div>
+		</div>
+    <div class="row">
+      <div class="col-sm">
+      <input type="number" class="form-control" id="result" readonly>
+      <br><br>
+      </div>
+      </div>
+    <div class="row" id = "classRow"> 
+      <div class="col-sm">
+      <button class="btn btn-primary btn-block" id="limpar">Limpar </button>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="text-center"><a href="index.html"><button class="btn-warning" id="voltar">Voltar</button></a></div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* This is a CSS file */
+
+  #classRow{
+    padding-top: 50px;
+  }
+  .container{
+    padding-top: 70px;
+  }
+  .header{
+    font-family: fantasy;
+    font-size: 55px;
+    text-align: center;
+  }
+body{
+  background-color: #21201f;
+  color: white;
+}

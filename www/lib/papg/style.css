@@ -1,0 +1,15 @@
+/* This is a CSS file */
+
+body{
+  background-color: #21201f;
+  color: white;
+}
+
+.page-header{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 110px;
+}
+.row{
+  padding-top: 20px;
+}
